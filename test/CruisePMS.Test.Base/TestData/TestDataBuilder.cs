@@ -1,0 +1,25 @@
+﻿using CruisePMS.EntityFrameworkCore;
+
+namespace CruisePMS.Test.Base.TestData
+{
+    public class TestDataBuilder
+    {
+        private readonly CruisePMSDbContext _context;
+        private readonly int _tenantId;
+
+        public TestDataBuilder(CruisePMSDbContext context, int tenantId)
+        {
+            _context = context;
+            _tenantId = tenantId;
+        }
+
+        public void Create()
+        {
+            new TestOrganizationUnitsBuilder(_context, _tenantId).Create();
+            new TestSubscriptionPaymentBuilder(_context, _tenantId).Create();
+            new TestEditionsBuilder(_context).Create();
+
+            _context.SaveChanges();
+        }
+    }
+}
