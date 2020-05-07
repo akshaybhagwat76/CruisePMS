@@ -18,6 +18,14 @@ using CruisePMS.CruiseTenantTypes;
 using CruisePMS.CruiseItineraries;
 
 using CruisePMS.CruiseTenantTypesPermissions;
+using CruisePMS.Cruises;
+using CruisePMS.CruiseServiceGroups;
+using CruisePMS.CruiseServices;
+using CruisePMS.CruiseServiceUnits;
+using CruisePMS.CruiseShipCategories;
+using CruisePMS.CruiseShips;
+using CruisePMS.CruiseThemes;
+using CruisePMS.CruiseDefaultSeasons;
 
 namespace CruisePMS.EntityFrameworkCore
 {
@@ -28,8 +36,17 @@ namespace CruisePMS.EntityFrameworkCore
         public virtual DbSet<TenantTypes> TenantTypes { get; set; }
         public virtual DbSet<CruiseItinerary> CruiseItineraries { get; set; }
 
-
+        public virtual DbSet<CruiseDefaultSeason> CruiseDefaultSeasons { get; set; }
         public virtual DbSet<TenantTypesPermissions> TenantTypesPermissions { get; set; }
+
+        public virtual DbSet<Cruise> Cruises { get; set; }
+        public virtual DbSet<CruiseServiceGroup> CruiseServiceGroups { get; set; }
+        public virtual DbSet<CruiseService> CruiseServices { get; set; }
+        public virtual DbSet<CruiseServiceUnit> CruiseServiceUnits { get; set; }
+
+        public virtual DbSet<CruiseShipCategory> CruiseShipCategories { get; set; }
+        public virtual DbSet<CruiseShip> CruiseShips { get; set; }
+        public virtual DbSet<CruiseTheme> CruiseThemes { get; set; }
 
 
         /* Define an IDbSet for each entity of the application */

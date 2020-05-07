@@ -93,6 +93,11 @@ namespace CruisePMS.Configuration
             public const string IsCookieConsentEnabled = "App.UserManagement.IsCookieConsentEnabled";
             public const string IsQuickThemeSelectEnabled = "App.UserManagement.IsQuickThemeSelectEnabled";
             public const string AllowOneConcurrentLoginPerUser = "App.UserManagement.AllowOneConcurrentLoginPerUser";
+
+            public const string WorkingYear = "App.UserManagement.WorkingYear";
+            public const string ShowHistoryData = "App.UserManagement.ShowHistoryData";
+            public const string ShowNextYearData = "App.UserManagement.ShowNextYearData";
+            public const string ShowDeletedYearData = "App.UserManagement.ShowDeletedYearData";
         }
 
         public static class Email

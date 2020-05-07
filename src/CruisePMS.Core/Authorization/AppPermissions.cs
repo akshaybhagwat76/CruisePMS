@@ -21,6 +21,11 @@
         public const string Pages_CruisesAllDeparture_Edit = "Pages.CruisesAllDeparture.Edit";
         public const string Pages_CruisesAllDeparture_Delete = "Pages.CruisesAllDeparture.Delete";
 
+        public const string Pages_CruiseDefaultSeasons = "Pages.CruiseDefaultSeasons";
+        public const string Pages_CruiseDefaultSeasons_Create = "Pages.CruiseDefaultSeasons.Create";
+        public const string Pages_CruiseDefaultSeasons_Edit = "Pages.CruiseDefaultSeasons.Edit";
+        public const string Pages_CruiseDefaultSeasons_Delete = "Pages.CruiseDefaultSeasons.Delete";
+
 
         //COMMON PERMISSIONS (FOR BOTH OF TENANTS AND HOST)
 

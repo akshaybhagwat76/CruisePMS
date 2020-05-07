@@ -1,5 +1,8 @@
 ﻿using Abp.Auditing;
 using Abp.Domain.Entities;
+using CruisePMS.CruiseMasterAmenities;
+using CruisePMS.CruiseServiceGroups;
+using CruisePMS.CruiseServiceUnits;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -14,13 +17,13 @@ namespace CruisePMS.CruiseServices
         public virtual int? TenantId { get; set; }
         public virtual int? CruiseServiceGroupsId { get; set; }
         [ForeignKey("CruiseServiceGroupsId")]
-        public CruiseServiceGroups CruiseServiceGroupsFk { get; set; }
+        public CruiseServiceGroup CruiseServiceGroupsFk { get; set; }
         public virtual int? CruiseServiceUnitsId { get; set; }
         [ForeignKey("CruiseServiceUnitsId")]
-        public CruiseServiceUnits CruiseServiceUnitsFk { get; set; }
+        public CruiseServiceUnit CruiseServiceUnitsFk { get; set; }
         public virtual int? ServiceName { get; set; }
         [ForeignKey("ServiceName")]
-        public CruiseMasterAmenities ServiceNaFk { get; set; }
+        public MasterAmenities ServiceNaFk { get; set; }
         public virtual bool PayOnSpot { get; set; }
         public virtual bool ReductionCanBeApplied { get; set; }
         public virtual bool Obligatory { get; set; }

@@ -46,6 +46,11 @@ namespace CruisePMS.Authorization
             cruisesPerDeparture.CreateChildPermission(AppPermissions.Pages_CruisesAllDeparture_Edit, L("EditCruisesAllDeparture"));
             cruisesPerDeparture.CreateChildPermission(AppPermissions.Pages_CruisesAllDeparture_Delete, L("DeleteCruisesAllDeparture"));
 
+            var cruiseDefaultSeasons = pages.CreateChildPermission(AppPermissions.Pages_CruiseDefaultSeasons, L("CruiseDefaultSeasons"));
+            cruiseDefaultSeasons.CreateChildPermission(AppPermissions.Pages_CruiseDefaultSeasons_Create, L("CreateNewCruiseDefaultSeasons"));
+            cruiseDefaultSeasons.CreateChildPermission(AppPermissions.Pages_CruiseDefaultSeasons_Edit, L("EditCruiseDefaultSeasons"));
+            cruiseDefaultSeasons.CreateChildPermission(AppPermissions.Pages_CruiseDefaultSeasons_Delete, L("DeleteCruiseDefaultSeasons"));
+
 
 
             pages.CreateChildPermission(AppPermissions.Pages_DemoUiComponents, L("DemoUiComponents"));

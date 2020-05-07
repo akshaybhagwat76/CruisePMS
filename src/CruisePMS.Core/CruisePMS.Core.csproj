@@ -39,8 +39,5 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CruiseAllDepartures\" />
-    <Folder Include="Cruises\" />
-    <Folder Include="CruiseShips\" />
-    <Folder Include="CruiseThemes\" />
   </ItemGroup>
 </Project>

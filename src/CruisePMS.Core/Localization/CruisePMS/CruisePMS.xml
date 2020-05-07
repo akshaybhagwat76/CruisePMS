@@ -316,8 +316,23 @@
     <text name="EmptyOnes">Empty ones</text>
     <text name="Source">Source</text>
     <text name="BaseLanguage">Base language</text>
+    <text name="CruiseDefaultSeasons">Cruise default seasons</text>
+    <text name="CruiseDefaultSeasonsHeaderInfo">Cruise default seasons header info</text>
+    <text name="CreateNewCruiseDefaultSeasons">Create new cruise default seasons</text>
+    <text name="EditCruiseDefaultSeasons">Edit cruise default seasons</text>
+    <text name="DeleteCruiseDefaultSeasons">Delete cruise default seasons</text>
     <text name="TargetLanguage">Target language</text>
     <text name="Previous">Previous</text>
+    <text name="CruiseDefaultSeasonsWeek">Week</text>
+    
+    <text name="DepartureYear">Departure year</text>
+    <text name="SeasonGroup">Season group</text>
+    <text name="DepartureDate">Departure date</text>
+    <text name="DeleterUserId">Deleter user id</text>
+    <text name="DeletionTime">Deletion time</text>
+    <text name="IsDeleted">Is deleted</text>
+    <text name="NotIsDeleted">Not is deleted</text>
+    
     <text name="LanguageDeleteWarningMessage">Are you sure to delete the language {0}?</text>
     <text name="CanNotEditOrDeleteDefaultLanguages">Can not edit or delete default languages. You can only edit or delete the languages you added. But you can change texts of all languages.</text>
     <text name="LookingForMpaVersion">Looking for Multi-Page Application Version?</text>
