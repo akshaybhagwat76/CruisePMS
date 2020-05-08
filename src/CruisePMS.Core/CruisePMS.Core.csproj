@@ -35,6 +35,7 @@
     <PackageReference Include="Twilio" Version="5.38.0" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CruisePMS.Application.Shared\CruisePMS.Application.Shared.csproj" />
     <ProjectReference Include="..\CruisePMS.Core.Shared\CruisePMS.Core.Shared.csproj" />
   </ItemGroup>
   <ItemGroup>

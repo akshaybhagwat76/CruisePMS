@@ -64,11 +64,28 @@ namespace CruisePMS.Configuration
             public const string IsNewRegisteredTenantActiveByDefault = "App.TenantManagement.IsNewRegisteredTenantActiveByDefault";
             public const string UseCaptchaOnRegistration = "App.TenantManagement.UseCaptchaOnRegistration";
             public const string DefaultEdition = "App.TenantManagement.DefaultEdition";
+            public const string WorkingYear = "App.TenantManagement.WorkingYear";
+            public const string ShowHistoryData = "App.TenantManagement.ShowHistoryData";
+            public const string ShowNextYearData = "App.TenantManagement.ShowNextYearData";
             public const string SubscriptionExpireNotifyDayCount = "App.TenantManagement.SubscriptionExpireNotifyDayCount";
             public const string BillingLegalName = "App.TenantManagement.BillingLegalName";
             public const string BillingAddress = "App.TenantManagement.BillingAddress";
             public const string BillingTaxVatNo = "App.TenantManagement.BillingTaxVatNo";
+
+
+            public const string StandardDeposit = "App.TenantManagement.StandardDeposit";
+            public const string StandardDepositType = "App.TenantManagement.StandardDepositType";
+            public const string FinalPaymentDueDays = "App.TenantManagement.FinalPaymentDueDays";
+            public const string StandardOptionDuration = "App.TenantManagement.StandardOptionDuration";
+            public const string StandardRequestDuration = "App.TenantManagement.StandardRequestDuration";
+            public const string isCruise = "App.TenantManagement.IsCruise";
+            public const string IsTravelOperator = "App.TenantManagement.IsTravelOperator";
+            public const string IsShipOperator = "App.TenantManagement.IsShipOperator";
+            public const string ActiveRequestDuration = "App.UserManagement.ActiveRequestDuration";
+            public const string UserdateFormate = "App.UserManagement.UserdateFormate";
+            public const string AgentDeductCommission = "App.UserManagement.AgentDeductCommission";
         }
+
 
         public static class UserManagement
         {

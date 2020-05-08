@@ -16,15 +16,47 @@
     <text name="MasterAmenitiesesHeaderInfo">Master amenitieses header info</text>
     <text name="CreateNewMasterAmenities">Create new master amenities</text>
     <text name="EditMasterAmenities">Edit master amenities</text>
+    
     <text name="DeleteMasterAmenities">Delete master amenities</text>
     <text name="MasterAmenitieses">Master amenitieses</text>
+    <text name="BedOptionsBedOptionName">Bed options bed option name</text>
+    <text name="PickBedOptions">Pick bed options</text>
+    <text name="BedOptions">Bed options</text>
+    <text name="BedOptionName">Bed option name</text>
+    <text name="CancellationPolicy">Cancellation policy</text>
+    <text name="AmenitiesstorageForShip">Storage For Ship</text>
+    <text name="AmenitiesstorageForCabin">Storage For Cabin</text>
+    <text name="Amenitiesstorage">Amenities Storage</text>
+    <text name="CruiseAmenitiesStorage">Cruise amenities storage</text>
+    <text name="CruiseAmenitiesStorageHeaderInfo">Cruise amenities storage header info</text>
+    <text name="CreateNewCruiseAmenitiesStorage">Create new cruise amenities storage</text>
+    <text name="EditCruiseAmenitiesStorage">Edit cruise amenities storage</text>
+    <text name="DeleteCruiseAmenitiesStorage">Delete cruise amenities storage</text>
 
+    <text name="CancellationPolicyHeaderInfo">Cancellation policy header info</text>
+    <text name="CreateNewCancellationPolicy">Create new cancellation policy</text>
+    <text name="EditCancellationPolicy">Edit cancellation policy</text>
+    <text name="DeleteCancellationPolicy">Delete cancellation policy</text>
+    <text name="Beds">Beds</text>
+    <text name="BedOptionsHeaderInfo">Bed options header info</text>
+    <text name="CreateNewBedOptions">Create new bed options</text>
+    <text name="EditBedOptions">Edit bed options</text>
+    <text name="DeleteBedOptions">Delete bed options</text>
     <text name="TenantTypesHeaderInfo">Tenant types header info</text>
     <text name="CreateNewTenantTypes">Create new tenant type</text>
     <text name="EditTenantTypes">Edit tenant type</text>
     <text name="DeleteTenantTypes">Delete tenant type</text>
     <text name="TenantTypes">Tenant Types</text>
-
+    <text name="AgePoliciesTenantId">Age policies tenant id</text>
+    <text name="PickAgePolicies">Pick age policies</text>
+    
+    <text name="AgePolicies">Age policies</text>
+    <text name="AgeFrom">Age from</text>
+    <text name="AgeTo">Age to</text>
+    <text name="AgePoliciesHeaderInfo">Age policies header info</text>
+    <text name="CreateNewAgePolicies">Create new age policies</text>
+    <text name="EditAgePolicies">Edit age policies</text>
+    <text name="DeleteAgePolicies">Delete age policies</text>
 
     <text name="AllDeparturesHeaderInfo">
       Cruise default seasons header info
@@ -324,7 +356,12 @@
     <text name="TargetLanguage">Target language</text>
     <text name="Previous">Previous</text>
     <text name="CruiseDefaultSeasonsWeek">Week</text>
-    
+    <text name="AccountPayments">Account payments</text>
+
+    <text name="AccountPaymentsHeaderInfo">Account payments header info</text>
+    <text name="CreateNewAccountPayments">Create new account payments</text>
+    <text name="EditAccountPayments">Edit account payments</text>
+    <text name="DeleteAccountPayments">Delete account payments</text>
     <text name="DepartureYear">Departure year</text>
     <text name="SeasonGroup">Season group</text>
     <text name="DepartureDate">Departure date</text>
@@ -587,6 +624,14 @@
     <text name="ExpiringTenantsHelpText">First {1} clients expiring in {0} days...</text>
     <text name="NoData">No data</text>
     <text name="SubscriptionEndDate">Subscription end date</text>
+    <text name="CreateNewClients">Create new clients</text>
+    <text name="EditClients">Edit clients</text>
+    <text name="DeleteClients">Delete clients</text>
+    <text name="ExpirationRange">Expiration range</text>
+    <text name="Clients">Clients</text>
+    <text name="ReservationNumber">Reservation No.</text>
+    <text name="ReservationHolderID">Reservation holder id</text>
+    <text name="ClientsHeaderInfo">Clients header info</text>
     <text name="TenantNameOrTenancyCode">Tenant name / tenancy code</text>
     <text name="IncomeWithAmount">Income: {0}</text>
     <text name="Subscription">Subscription</text>
@@ -962,6 +1007,18 @@
     <text name="SessionExpireRedirectingInXSecond">Your session will expire because you have been inactive for a long time. Provide any mouse/keyboard input on the site to stop session termination. Redirecting in {0}sec.</text>
     <text name="SessionTimeOut">Session Timeout Control</text>
     <text name="IsSessionTimeOutEnabled">Session Time Out Control Enabled</text>
+    <text name="CruiseContractContractName">Cruise contract contract name</text>
+    <text name="PickCruiseContract">Pick cruise contract</text>
+    <text name="CruiseContractCommissions">Cruise contract commissions</text>
+    <text name="CruiseContractCommissionsHeaderInfo">Cruise contract commissions header info</text>
+    <text name="CreateNewCruiseContractCommissions">Create new cruise contract commissions</text>
+    <text name="EditCruiseContractCommissions">Edit cruise contract commissions</text>
+    <text name="DeleteCruiseContractCommissions">Delete cruise contract commissions</text>
+    <text name="CruiseContract">Cruise contract</text>
+    <text name="CruiseContractHeaderInfo">Cruise contract header info</text>
+    <text name="CreateNewCruiseContract">Create new cruise contract</text>
+    <text name="EditCruiseContract">Edit cruise contract</text>
+    <text name="DeleteCruiseContract">Delete cruise contract</text>
     <text name="SessionTimeOutSecond">Timeout Second.</text>
     <text name="ShowTimeOutNotificationSecond">Countdown Modal Wait Time (Seconds)</text>
     <text name="OneConcurrentLoginPerUser">Only one concurrent login per user</text>
@@ -1055,6 +1112,12 @@
     <text name="HeaderKeysMustBeUnique">Header keys must be unique</text>
     <text name="ViewWebhookEvent">View Webhook Event</text>
     <text name="GoToSubscription">Go To Subscription</text>
+    <text name="CruiseBookingStatus">Cruise booking status</text>
+
+    <text name="CruiseBookingStatusHeaderInfo">Cruise booking status header info</text>
+    <text name="CreateNewCruiseBookingStatus">Create new cruise booking status</text>
+    <text name="EditCruiseBookingStatus">Edit cruise booking status</text>
+    <text name="DeleteCruiseBookingStatus">Delete cruise booking status</text>
     <text name="WebhookSubscriptionDetail">Webhook subscription detail</text>
     <text name="Resend">Resend</text>
     <text name="YouHaveToSubscribeToTestWebhookToReceiveTestEvent">You have to subscribe to test webhook to receive test event</text>

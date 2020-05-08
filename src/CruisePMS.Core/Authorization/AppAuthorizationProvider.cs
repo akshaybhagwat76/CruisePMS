@@ -35,10 +35,47 @@ namespace CruisePMS.Authorization
             masterAmenitieses.CreateChildPermission(AppPermissions.Pages_MasterAmenitieses_Edit, L("EditMasterAmenities"), multiTenancySides: MultiTenancySides.Host);
             masterAmenitieses.CreateChildPermission(AppPermissions.Pages_MasterAmenitieses_Delete, L("DeleteMasterAmenities"), multiTenancySides: MultiTenancySides.Host);
 
+
+            var cruiseContract = pages.CreateChildPermission(AppPermissions.Pages_CruiseContract, L("CruiseContract"));
+            cruiseContract.CreateChildPermission(AppPermissions.Pages_CruiseContract_Create, L("CreateNewCruiseContract"));
+            cruiseContract.CreateChildPermission(AppPermissions.Pages_CruiseContract_Edit, L("EditCruiseContract"));
+            cruiseContract.CreateChildPermission(AppPermissions.Pages_CruiseContract_Delete, L("DeleteCruiseContract"));
+
+
+
+            var cruiseContractCommissions = pages.CreateChildPermission(AppPermissions.Pages_CruiseContractCommissions, L("CruiseContractCommissions"));
+            cruiseContractCommissions.CreateChildPermission(AppPermissions.Pages_CruiseContractCommissions_Create, L("CreateNewCruiseContractCommissions"));
+            cruiseContractCommissions.CreateChildPermission(AppPermissions.Pages_CruiseContractCommissions_Edit, L("EditCruiseContractCommissions"));
+            cruiseContractCommissions.CreateChildPermission(AppPermissions.Pages_CruiseContractCommissions_Delete, L("DeleteCruiseContractCommissions"));
+
+
+
+
+            var clients = pages.CreateChildPermission(AppPermissions.Pages_Clients, L("Clients"));
+            clients.CreateChildPermission(AppPermissions.Pages_Clients_Create, L("CreateNewClients"));
+            clients.CreateChildPermission(AppPermissions.Pages_Clients_Edit, L("EditClients"));
+            clients.CreateChildPermission(AppPermissions.Pages_Clients_Delete, L("DeleteClients"));
+
+            var cruiseAmenitiesStorage = pages.CreateChildPermission(AppPermissions.Pages_CruiseAmenitiesStorage, L("CruiseAmenitiesStorage"));
+            cruiseAmenitiesStorage.CreateChildPermission(AppPermissions.Pages_CruiseAmenitiesStorage_Create, L("CreateNewCruiseAmenitiesStorage"));
+            cruiseAmenitiesStorage.CreateChildPermission(AppPermissions.Pages_CruiseAmenitiesStorage_Edit, L("EditCruiseAmenitiesStorage"));
+            cruiseAmenitiesStorage.CreateChildPermission(AppPermissions.Pages_CruiseAmenitiesStorage_Delete, L("DeleteCruiseAmenitiesStorage"));
+
+
             var tenantTypes = pages.CreateChildPermission(AppPermissions.Pages_TenantTypes, L("TenantTypes"), multiTenancySides: MultiTenancySides.Host);
             tenantTypes.CreateChildPermission(AppPermissions.Pages_TenantTypes_Create, L("CreateNewTenantTypes"), multiTenancySides: MultiTenancySides.Host);
             tenantTypes.CreateChildPermission(AppPermissions.Pages_TenantTypes_Edit, L("EditTenantTypes"), multiTenancySides: MultiTenancySides.Host);
             tenantTypes.CreateChildPermission(AppPermissions.Pages_TenantTypes_Delete, L("DeleteTenantTypes"), multiTenancySides: MultiTenancySides.Host);
+
+            var agePolicies = pages.CreateChildPermission(AppPermissions.Pages_AgePolicies, L("AgePolicies"));
+            agePolicies.CreateChildPermission(AppPermissions.Pages_AgePolicies_Create, L("CreateNewAgePolicies"));
+            agePolicies.CreateChildPermission(AppPermissions.Pages_AgePolicies_Edit, L("EditAgePolicies"));
+            agePolicies.CreateChildPermission(AppPermissions.Pages_AgePolicies_Delete, L("DeleteAgePolicies"));
+
+            var cancellationPolicy = pages.CreateChildPermission(AppPermissions.Pages_CancellationPolicy, L("CancellationPolicy"));
+            cancellationPolicy.CreateChildPermission(AppPermissions.Pages_CancellationPolicy_Create, L("CreateNewCancellationPolicy"));
+            cancellationPolicy.CreateChildPermission(AppPermissions.Pages_CancellationPolicy_Edit, L("EditCancellationPolicy"));
+            cancellationPolicy.CreateChildPermission(AppPermissions.Pages_CancellationPolicy_Delete, L("DeleteCancellationPolicy"));
 
 
             var cruisesPerDeparture = pages.CreateChildPermission(AppPermissions.Pages_CruisesAllDeparture, L("CruisesAllDeparture"));
@@ -51,6 +88,12 @@ namespace CruisePMS.Authorization
             cruiseDefaultSeasons.CreateChildPermission(AppPermissions.Pages_CruiseDefaultSeasons_Edit, L("EditCruiseDefaultSeasons"));
             cruiseDefaultSeasons.CreateChildPermission(AppPermissions.Pages_CruiseDefaultSeasons_Delete, L("DeleteCruiseDefaultSeasons"));
 
+
+
+            var bedOptions = pages.CreateChildPermission(AppPermissions.Pages_BedOptions, L("BedOptions"), multiTenancySides: MultiTenancySides.Host);
+            bedOptions.CreateChildPermission(AppPermissions.Pages_BedOptions_Create, L("CreateNewBedOptions"), multiTenancySides: MultiTenancySides.Host);
+            bedOptions.CreateChildPermission(AppPermissions.Pages_BedOptions_Edit, L("EditBedOptions"), multiTenancySides: MultiTenancySides.Host);
+            bedOptions.CreateChildPermission(AppPermissions.Pages_BedOptions_Delete, L("DeleteBedOptions"), multiTenancySides: MultiTenancySides.Host);
 
 
             pages.CreateChildPermission(AppPermissions.Pages_DemoUiComponents, L("DemoUiComponents"));
@@ -92,6 +135,15 @@ namespace CruisePMS.Authorization
             webhooks.CreateChildPermission(AppPermissions.Pages_Administration_WebhookSubscription_Detail, L("DetailingSubscription"));
             webhooks.CreateChildPermission(AppPermissions.Pages_Administration_Webhook_ListSendAttempts, L("ListingSendAttempts"));
             webhooks.CreateChildPermission(AppPermissions.Pages_Administration_Webhook_ResendWebhook, L("ResendingWebhook"));
+
+
+
+            var cruiseBookingStatus = pages.CreateChildPermission(AppPermissions.Pages_CruiseBookingStatus, L("CruiseBookingStatus"));
+            cruiseBookingStatus.CreateChildPermission(AppPermissions.Pages_CruiseBookingStatus_Create, L("CreateNewCruiseBookingStatus"));
+            cruiseBookingStatus.CreateChildPermission(AppPermissions.Pages_CruiseBookingStatus_Edit, L("EditCruiseBookingStatus"));
+            cruiseBookingStatus.CreateChildPermission(AppPermissions.Pages_CruiseBookingStatus_Delete, L("DeleteCruiseBookingStatus"));
+
+
 
             var dynamicParameters = administration.CreateChildPermission(AppPermissions.Pages_Administration_DynamicParameters, L("DynamicParameters"));
             dynamicParameters.CreateChildPermission(AppPermissions.Pages_Administration_DynamicParameters_Create, L("CreatingDynamicParameters"));

@@ -1,6 +1,5 @@
 ﻿using CruisePMS.CruiseMasterAmenities;
 using Abp.IdentityServer4;
-using Abp.Organizations;
 using Abp.Zero.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using CruisePMS.Authorization.Delegation;
@@ -13,10 +12,8 @@ using CruisePMS.MultiTenancy;
 using CruisePMS.MultiTenancy.Accounting;
 using CruisePMS.MultiTenancy.Payments;
 using CruisePMS.Storage;
-using Microsoft.EntityFrameworkCore.Metadata;
 using CruisePMS.CruiseTenantTypes;
 using CruisePMS.CruiseItineraries;
-
 using CruisePMS.CruiseTenantTypesPermissions;
 using CruisePMS.Cruises;
 using CruisePMS.CruiseServiceGroups;
@@ -26,24 +23,57 @@ using CruisePMS.CruiseShipCategories;
 using CruisePMS.CruiseShips;
 using CruisePMS.CruiseThemes;
 using CruisePMS.CruiseDefaultSeasons;
+using CruisePMS.AccountPayments;
+using CruisePMS.Clients;
+using CruisePMS.Reservations;
+using CruisePMS.AgePolicies;
+using CruisePMS.BedOptions;
+using CruisePMS.CancellationPolicies;
+using CruisePMS.Localization;
+using CruisePMS.ReservationsClients;
+using CruisePMS.AmenityStorages;
+using CruisePMS.BookingStatuses;
+using CruisePMS.CruiseBookingStatuses;
+using CruisePMS.Contracts;
+using CruisePMS.Common;
+using CruisePMS.ContractCommissions;
+using CruisePMS.MainServices;
+using CruisePMS.CruiseCabinAmenitiesGroups;
+using CruisePMS.CruiseCabinAmenities;
+using CruisePMS.CruiseDepartures;
 
 namespace CruisePMS.EntityFrameworkCore
 {
     public class CruisePMSDbContext : AbpZeroDbContext<Tenant, Role, User, CruisePMSDbContext>, IAbpPersistedGrantDbContext
     {
         public virtual DbSet<MasterAmenities> MasterAmenitieses { get; set; }
-
+        public virtual DbSet<AccountPayment> AccountPayments { get; set; }
+        public virtual DbSet<AgePolicy> AgePolicies { get; set; }
+        public virtual DbSet<BedOption> BedOptions { get; set; }
+        public virtual DbSet<ip2location_country_multilingual> ip2location_country_multilingual { get; set; }
+        public virtual DbSet<Contract> Contracts { get; set; }
+        public virtual DbSet<ReadSettings> ReadSettings { get; set; }
+        public virtual DbSet<ContractCommission> ContractCommissions { get; set; }
+        public virtual DbSet<MainService> MainServices { get; set; }
+        public virtual DbSet<CruiseCabinAmenity> CruiseCabinAmenities { get; set; }
+        public virtual DbSet<CruiseCabinAmenitiesGroup> CruiseCabinAmenitiesGroups { get; set; }
+        public virtual DbSet<AmenityStorage> AmenityStorages { get; set; }
+        public virtual DbSet<ReservationsClient> ReservationsClients { get; set; }
         public virtual DbSet<TenantTypes> TenantTypes { get; set; }
+        public virtual DbSet<Client> Clients { get; set; }
+        public virtual DbSet<BookingStatus> BookingStatuses { get; set; }
+        public virtual DbSet<CruiseBookingStatus> CruiseBookingStatuses { get; set; }
+        public virtual DbSet<CruiseDeparture> CruiseDepartures { get; set; }
+        public virtual DbSet<Reservation> Reservations { get; set; }
         public virtual DbSet<CruiseItinerary> CruiseItineraries { get; set; }
+        public virtual DbSet<CancellationPolicy> CancellationPolicies { get; set; }
 
         public virtual DbSet<CruiseDefaultSeason> CruiseDefaultSeasons { get; set; }
         public virtual DbSet<TenantTypesPermissions> TenantTypesPermissions { get; set; }
-
         public virtual DbSet<Cruise> Cruises { get; set; }
         public virtual DbSet<CruiseServiceGroup> CruiseServiceGroups { get; set; }
         public virtual DbSet<CruiseService> CruiseServices { get; set; }
         public virtual DbSet<CruiseServiceUnit> CruiseServiceUnits { get; set; }
-
         public virtual DbSet<CruiseShipCategory> CruiseShipCategories { get; set; }
         public virtual DbSet<CruiseShip> CruiseShips { get; set; }
         public virtual DbSet<CruiseTheme> CruiseThemes { get; set; }

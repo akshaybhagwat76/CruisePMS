@@ -16,6 +16,39 @@
         public const string Pages_TenantTypes_Edit = "Pages.TenantTypes.Edit";
         public const string Pages_TenantTypes_Delete = "Pages.TenantTypes.Delete";
 
+        public const string Pages_CruiseAmenitiesStorage = "Pages.CruiseAmenitiesStorage";
+        public const string Pages_CruiseAmenitiesStorage_Create = "Pages.CruiseAmenitiesStorage.Create";
+        public const string Pages_CruiseAmenitiesStorage_Edit = "Pages.CruiseAmenitiesStorage.Edit";
+        public const string Pages_CruiseAmenitiesStorage_Delete = "Pages.CruiseAmenitiesStorage.Delete";
+
+        public const string Pages_CruiseDepartures = "Pages.CruiseDepartures";
+        public const string Pages_CruiseDepartures_Create = "Pages.CruiseDepartures.Create";
+        public const string Pages_CruiseDepartures_Edit = "Pages.CruiseDepartures.Edit";
+        public const string Pages_CruiseDepartures_Delete = "Pages.CruiseDepartures.Delete";
+
+        public const string Pages_CruiseContract = "Pages.CruiseContract";
+        public const string Pages_CruiseContract_Create = "Pages.CruiseContract.Create";
+        public const string Pages_CruiseContract_Edit = "Pages.CruiseContract.Edit";
+        public const string Pages_CruiseContract_Delete = "Pages.CruiseContract.Delete";
+
+
+        public const string Pages_CruiseContractCommissions = "Pages.CruiseContractCommissions";
+        public const string Pages_CruiseContractCommissions_Create = "Pages.CruiseContractCommissions.Create";
+        public const string Pages_CruiseContractCommissions_Edit = "Pages.CruiseContractCommissions.Edit";
+        public const string Pages_CruiseContractCommissions_Delete = "Pages.CruiseContractCommissions.Delete";
+
+        public const string Pages_CruisePhotos = "Pages.CruisePhotos";
+
+        public const string Pages_CruiseBookingStatus = "Pages.CruiseBookingStatus";
+        public const string Pages_CruiseBookingStatus_Create = "Pages.CruiseBookingStatus.Create";
+        public const string Pages_CruiseBookingStatus_Edit = "Pages.CruiseBookingStatus.Edit";
+        public const string Pages_CruiseBookingStatus_Delete = "Pages.CruiseBookingStatus.Delete";
+
+        public const string Pages_Clients = "Pages.Clients";
+        public const string Pages_Clients_Create = "Pages.Clients.Create";
+        public const string Pages_Clients_Edit = "Pages.Clients.Edit";
+        public const string Pages_Clients_Delete = "Pages.Clients.Delete";
+
         public const string Pages_CruisesAllDeparture = "Pages.CruisesAllDeparture";
         public const string Pages_CruisesAllDeparture_Create = "Pages.CruisesAllDeparture.Create";
         public const string Pages_CruisesAllDeparture_Edit = "Pages.CruisesAllDeparture.Edit";
@@ -25,6 +58,27 @@
         public const string Pages_CruiseDefaultSeasons_Create = "Pages.CruiseDefaultSeasons.Create";
         public const string Pages_CruiseDefaultSeasons_Edit = "Pages.CruiseDefaultSeasons.Edit";
         public const string Pages_CruiseDefaultSeasons_Delete = "Pages.CruiseDefaultSeasons.Delete";
+
+        public const string Pages_CancellationPolicy = "Pages.CancellationPolicy";
+        public const string Pages_CancellationPolicy_Create = "Pages.CancellationPolicy.Create";
+        public const string Pages_CancellationPolicy_Edit = "Pages.CancellationPolicy.Edit";
+        public const string Pages_CancellationPolicy_Delete = "Pages.CancellationPolicy.Delete";
+
+
+        public const string Pages_AccountPayments = "Pages.AccountPayments";
+        public const string Pages_AccountPayments_Create = "Pages.AccountPayments.Create";
+        public const string Pages_AccountPayments_Edit = "Pages.AccountPayments.Edit";
+        public const string Pages_AccountPayments_Delete = "Pages.AccountPayments.Delete";
+
+        public const string Pages_AgePolicies = "Pages.AgePolicies";
+        public const string Pages_AgePolicies_Create = "Pages.AgePolicies.Create";
+        public const string Pages_AgePolicies_Edit = "Pages.AgePolicies.Edit";
+        public const string Pages_AgePolicies_Delete = "Pages.AgePolicies.Delete";
+
+        public const string Pages_BedOptions = "Pages.BedOptions";
+        public const string Pages_BedOptions_Create = "Pages.BedOptions.Create";
+        public const string Pages_BedOptions_Edit = "Pages.BedOptions.Edit";
+        public const string Pages_BedOptions_Delete = "Pages.BedOptions.Delete";
 
 
         //COMMON PERMISSIONS (FOR BOTH OF TENANTS AND HOST)
