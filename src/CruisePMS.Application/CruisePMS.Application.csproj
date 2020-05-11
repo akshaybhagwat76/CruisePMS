@@ -21,4 +21,7 @@
     <ProjectReference Include="..\CruisePMS.Core\CruisePMS.Core.csproj" />
     <ProjectReference Include="..\CruisePMS.EntityFrameworkCore\CruisePMS.EntityFrameworkCore.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
 </Project>

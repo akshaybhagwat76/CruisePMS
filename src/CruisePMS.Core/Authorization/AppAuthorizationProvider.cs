@@ -35,19 +35,55 @@ namespace CruisePMS.Authorization
             masterAmenitieses.CreateChildPermission(AppPermissions.Pages_MasterAmenitieses_Edit, L("EditMasterAmenities"), multiTenancySides: MultiTenancySides.Host);
             masterAmenitieses.CreateChildPermission(AppPermissions.Pages_MasterAmenitieses_Delete, L("DeleteMasterAmenities"), multiTenancySides: MultiTenancySides.Host);
 
+            var cruisePrices = pages.CreateChildPermission(AppPermissions.Pages_CruisePrices, L("CruisePrices"));
+            cruisePrices.CreateChildPermission(AppPermissions.Pages_CruisePrices_Create, L("CreateNewCruisePrices"));
+            cruisePrices.CreateChildPermission(AppPermissions.Pages_CruisePrices_Edit, L("EditCruisePrices"));
+            cruisePrices.CreateChildPermission(AppPermissions.Pages_CruisePrices_Delete, L("DeleteCruisePrices"));
 
             var cruiseContract = pages.CreateChildPermission(AppPermissions.Pages_CruiseContract, L("CruiseContract"));
             cruiseContract.CreateChildPermission(AppPermissions.Pages_CruiseContract_Create, L("CreateNewCruiseContract"));
             cruiseContract.CreateChildPermission(AppPermissions.Pages_CruiseContract_Edit, L("EditCruiseContract"));
             cruiseContract.CreateChildPermission(AppPermissions.Pages_CruiseContract_Delete, L("DeleteCruiseContract"));
 
+            var cruises = pages.CreateChildPermission(AppPermissions.Pages_Cruises, L("Cruises"));
+            cruises.CreateChildPermission(AppPermissions.Pages_Cruises_Create, L("CreateNewCruises"));
+            cruises.CreateChildPermission(AppPermissions.Pages_Cruises_Edit, L("EditCruises"));
+            cruises.CreateChildPermission(AppPermissions.Pages_Cruises_Delete, L("DeleteCruises"));
 
+            var cruisePhotos = pages.CreateChildPermission(AppPermissions.Pages_CruisePhotos, L("CruisePhotos"));
+            cruisePhotos.CreateChildPermission(AppPermissions.Pages_CruisePhotos_Create, L("CreateNewCruisePhotos"));
+            cruisePhotos.CreateChildPermission(AppPermissions.Pages_CruisePhotos_Edit, L("EditCruisePhotos"));
+            cruisePhotos.CreateChildPermission(AppPermissions.Pages_CruisePhotos_Delete, L("DeleteCruisePhotos"));
+
+
+            var cruiseReductions = pages.CreateChildPermission(AppPermissions.Pages_CruiseReductions, L("CruiseReductions"));
+            cruiseReductions.CreateChildPermission(AppPermissions.Pages_CruiseReductions_Create, L("CreateNewCruiseReductions"));
+            cruiseReductions.CreateChildPermission(AppPermissions.Pages_CruiseReductions_Edit, L("EditCruiseReductions"));
+            cruiseReductions.CreateChildPermission(AppPermissions.Pages_CruiseReductions_Delete, L("DeleteCruiseReductions"));
+
+
+            var cruiseServiceGroups = pages.CreateChildPermission(AppPermissions.Pages_CruiseServiceGroups, L("CruiseServiceGroups"));
+            cruiseServiceGroups.CreateChildPermission(AppPermissions.Pages_CruiseServiceGroups_Create, L("CreateNewCruiseServiceGroups"));
+            cruiseServiceGroups.CreateChildPermission(AppPermissions.Pages_CruiseServiceGroups_Edit, L("EditCruiseServiceGroups"));
+            cruiseServiceGroups.CreateChildPermission(AppPermissions.Pages_CruiseServiceGroups_Delete, L("DeleteCruiseServiceGroups"));
 
             var cruiseContractCommissions = pages.CreateChildPermission(AppPermissions.Pages_CruiseContractCommissions, L("CruiseContractCommissions"));
             cruiseContractCommissions.CreateChildPermission(AppPermissions.Pages_CruiseContractCommissions_Create, L("CreateNewCruiseContractCommissions"));
             cruiseContractCommissions.CreateChildPermission(AppPermissions.Pages_CruiseContractCommissions_Edit, L("EditCruiseContractCommissions"));
             cruiseContractCommissions.CreateChildPermission(AppPermissions.Pages_CruiseContractCommissions_Delete, L("DeleteCruiseContractCommissions"));
 
+
+
+            var cruiseItineraryDetails = pages.CreateChildPermission(AppPermissions.Pages_CruiseItineraryDetails, L("CruiseItineraryDetails"));
+            cruiseItineraryDetails.CreateChildPermission(AppPermissions.Pages_CruiseItineraryDetails_Create, L("CreateNewCruiseItineraryDetails"));
+            cruiseItineraryDetails.CreateChildPermission(AppPermissions.Pages_CruiseItineraryDetails_Edit, L("EditCruiseItineraryDetails"));
+            cruiseItineraryDetails.CreateChildPermission(AppPermissions.Pages_CruiseItineraryDetails_Delete, L("DeleteCruiseItineraryDetails"));
+
+
+            var cruiseFares = pages.CreateChildPermission(AppPermissions.Pages_CruiseFares, L("CruiseFares"));
+            cruiseFares.CreateChildPermission(AppPermissions.Pages_CruiseFares_Create, L("CreateNewCruiseFares"));
+            cruiseFares.CreateChildPermission(AppPermissions.Pages_CruiseFares_Edit, L("EditCruiseFares"));
+            cruiseFares.CreateChildPermission(AppPermissions.Pages_CruiseFares_Delete, L("DeleteCruiseFares"));
 
 
 
@@ -87,6 +123,11 @@ namespace CruisePMS.Authorization
             cruiseDefaultSeasons.CreateChildPermission(AppPermissions.Pages_CruiseDefaultSeasons_Create, L("CreateNewCruiseDefaultSeasons"));
             cruiseDefaultSeasons.CreateChildPermission(AppPermissions.Pages_CruiseDefaultSeasons_Edit, L("EditCruiseDefaultSeasons"));
             cruiseDefaultSeasons.CreateChildPermission(AppPermissions.Pages_CruiseDefaultSeasons_Delete, L("DeleteCruiseDefaultSeasons"));
+
+            var cruiseItineraries = pages.CreateChildPermission(AppPermissions.Pages_CruiseItineraries, L("CruiseItineraries"));
+            cruiseItineraries.CreateChildPermission(AppPermissions.Pages_CruiseItineraries_Create, L("CreateNewCruiseItineraries"));
+            cruiseItineraries.CreateChildPermission(AppPermissions.Pages_CruiseItineraries_Edit, L("EditCruiseItineraries"));
+            cruiseItineraries.CreateChildPermission(AppPermissions.Pages_CruiseItineraries_Delete, L("DeleteCruiseItineraries"));
 
 
 

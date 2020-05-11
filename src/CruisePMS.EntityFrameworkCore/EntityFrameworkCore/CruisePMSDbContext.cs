@@ -30,7 +30,6 @@ using CruisePMS.AgePolicies;
 using CruisePMS.BedOptions;
 using CruisePMS.CancellationPolicies;
 using CruisePMS.Localization;
-using CruisePMS.ReservationsClients;
 using CruisePMS.AmenityStorages;
 using CruisePMS.BookingStatuses;
 using CruisePMS.CruiseBookingStatuses;
@@ -41,6 +40,15 @@ using CruisePMS.MainServices;
 using CruisePMS.CruiseCabinAmenitiesGroups;
 using CruisePMS.CruiseCabinAmenities;
 using CruisePMS.CruiseDepartures;
+using CruisePMS.CruiseFares;
+using CruisePMS.ReservationsClients;
+using CruisePMS.CruiseItineraryDetails;
+using CruisePMS.CruisePhotos;
+using CruisePMS.CruiseShipCabins;
+using CruisePMS.CruiseShipDecks;
+using CruisePMS.CruisePrices;
+using CruisePMS.CharterDepartures;
+using CruisePMS.CruiseReductions;
 
 namespace CruisePMS.EntityFrameworkCore
 {
@@ -64,8 +72,13 @@ namespace CruisePMS.EntityFrameworkCore
         public virtual DbSet<BookingStatus> BookingStatuses { get; set; }
         public virtual DbSet<CruiseBookingStatus> CruiseBookingStatuses { get; set; }
         public virtual DbSet<CruiseDeparture> CruiseDepartures { get; set; }
+
+        public virtual DbSet<CruiseFare> CruiseFares { get; set; }
+
         public virtual DbSet<Reservation> Reservations { get; set; }
         public virtual DbSet<CruiseItinerary> CruiseItineraries { get; set; }
+        public virtual DbSet<CruiseItineraryDetail> CruiseItineraryDetails { get; set; }
+
         public virtual DbSet<CancellationPolicy> CancellationPolicies { get; set; }
 
         public virtual DbSet<CruiseDefaultSeason> CruiseDefaultSeasons { get; set; }
@@ -98,6 +111,15 @@ namespace CruisePMS.EntityFrameworkCore
         public virtual DbSet<SubscriptionPaymentExtensionData> SubscriptionPaymentExtensionDatas { get; set; }
 
         public virtual DbSet<UserDelegation> UserDelegations { get; set; }
+        public virtual DbSet<ip2location_city_multilingual> ip2location_city_multilinguals { get; set; }
+        public virtual DbSet<CruisePhoto> CruisePhoto { get; set; }
+
+        public virtual DbSet<CruiseShipCabin> CruiseShipCabins { get; set; }
+        public virtual DbSet<CruiseShipDeck> CruiseShipDecks { get; set; }
+        public virtual DbSet<CruisePrice> CruisePrices { get; set; }
+        public virtual DbSet<CharterDeparture> CharterDepartures { get; set; }
+        //public virtual DbSet<CruiseReduction> CruiseReductions { get; set; }
+        public virtual DbSet<CruiseReduction> CruiseReductions { get; set; }
 
         public CruisePMSDbContext(DbContextOptions<CruisePMSDbContext> options)
             : base(options)

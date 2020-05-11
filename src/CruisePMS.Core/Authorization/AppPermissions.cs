@@ -21,16 +21,40 @@
         public const string Pages_CruiseAmenitiesStorage_Edit = "Pages.CruiseAmenitiesStorage.Edit";
         public const string Pages_CruiseAmenitiesStorage_Delete = "Pages.CruiseAmenitiesStorage.Delete";
 
+        public const string Pages_CruisePrices = "Pages.CruisePrices";
+        public const string Pages_CruisePrices_Create = "Pages.CruisePrices.Create";
+        public const string Pages_CruisePrices_Edit = "Pages.CruisePrices.Edit";
+        public const string Pages_CruisePrices_Delete = "Pages.CruisePrices.Delete";
+
+        public const string Pages_CruiseReductions = "Pages.CruiseReductions";
+        public const string Pages_CruiseReductions_Create = "Pages.CruiseReductions.Create";
+        public const string Pages_CruiseReductions_Edit = "Pages.CruiseReductions.Edit";
+        public const string Pages_CruiseReductions_Delete = "Pages.CruiseReductions.Delete";
+
         public const string Pages_CruiseDepartures = "Pages.CruiseDepartures";
         public const string Pages_CruiseDepartures_Create = "Pages.CruiseDepartures.Create";
         public const string Pages_CruiseDepartures_Edit = "Pages.CruiseDepartures.Edit";
         public const string Pages_CruiseDepartures_Delete = "Pages.CruiseDepartures.Delete";
+
+        public const string Pages_CruiseServiceGroups = "Pages.CruiseServiceGroups";
+        public const string Pages_CruiseServiceGroups_Create = "Pages.CruiseServiceGroups.Create";
+        public const string Pages_CruiseServiceGroups_Edit = "Pages.CruiseServiceGroups.Edit";
+        public const string Pages_CruiseServiceGroups_Delete = "Pages.CruiseServiceGroups.Delete";
 
         public const string Pages_CruiseContract = "Pages.CruiseContract";
         public const string Pages_CruiseContract_Create = "Pages.CruiseContract.Create";
         public const string Pages_CruiseContract_Edit = "Pages.CruiseContract.Edit";
         public const string Pages_CruiseContract_Delete = "Pages.CruiseContract.Delete";
 
+        public const string Pages_CruiseItineraries = "Pages.CruiseItineraries";
+        public const string Pages_CruiseItineraries_Create = "Pages.CruiseItineraries.Create";
+        public const string Pages_CruiseItineraries_Edit = "Pages.CruiseItineraries.Edit";
+        public const string Pages_CruiseItineraries_Delete = "Pages.CruiseItineraries.Delete";
+
+        public const string Pages_CruiseItineraryDetails = "Pages.CruiseItineraryDetails";
+        public const string Pages_CruiseItineraryDetails_Create = "Pages.CruiseItineraryDetails.Create";
+        public const string Pages_CruiseItineraryDetails_Edit = "Pages.CruiseItineraryDetails.Edit";
+        public const string Pages_CruiseItineraryDetails_Delete = "Pages.CruiseItineraryDetails.Delete";
 
         public const string Pages_CruiseContractCommissions = "Pages.CruiseContractCommissions";
         public const string Pages_CruiseContractCommissions_Create = "Pages.CruiseContractCommissions.Create";
@@ -38,6 +62,9 @@
         public const string Pages_CruiseContractCommissions_Delete = "Pages.CruiseContractCommissions.Delete";
 
         public const string Pages_CruisePhotos = "Pages.CruisePhotos";
+        public const string Pages_CruisePhotos_Create = "Pages.CruisePhotos.Create";
+        public const string Pages_CruisePhotos_Edit = "Pages.CruisePhotos.Edit";
+        public const string Pages_CruisePhotos_Delete = "Pages.CruisePhotos.Delete";
 
         public const string Pages_CruiseBookingStatus = "Pages.CruiseBookingStatus";
         public const string Pages_CruiseBookingStatus_Create = "Pages.CruiseBookingStatus.Create";
@@ -49,6 +76,13 @@
         public const string Pages_Clients_Edit = "Pages.Clients.Edit";
         public const string Pages_Clients_Delete = "Pages.Clients.Delete";
 
+
+        public const string Pages_Cruises = "Pages.Cruises";
+        public const string Pages_Cruises_Create = "Pages.Cruises.Create";
+        public const string Pages_Cruises_Edit = "Pages.Cruises.Edit";
+        public const string Pages_Cruises_Delete = "Pages.Cruises.Delete";
+
+
         public const string Pages_CruisesAllDeparture = "Pages.CruisesAllDeparture";
         public const string Pages_CruisesAllDeparture_Create = "Pages.CruisesAllDeparture.Create";
         public const string Pages_CruisesAllDeparture_Edit = "Pages.CruisesAllDeparture.Edit";
@@ -58,6 +92,11 @@
         public const string Pages_CruiseDefaultSeasons_Create = "Pages.CruiseDefaultSeasons.Create";
         public const string Pages_CruiseDefaultSeasons_Edit = "Pages.CruiseDefaultSeasons.Edit";
         public const string Pages_CruiseDefaultSeasons_Delete = "Pages.CruiseDefaultSeasons.Delete";
+
+        public const string Pages_CruiseFares = "Pages.CruiseFares";
+        public const string Pages_CruiseFares_Create = "Pages.CruiseFares.Create";
+        public const string Pages_CruiseFares_Edit = "Pages.CruiseFares.Edit";
+        public const string Pages_CruiseFares_Delete = "Pages.CruiseFares.Delete";
 
         public const string Pages_CancellationPolicy = "Pages.CancellationPolicy";
         public const string Pages_CancellationPolicy_Create = "Pages.CancellationPolicy.Create";

@@ -16,7 +16,27 @@
     <text name="MasterAmenitiesesHeaderInfo">Master amenitieses header info</text>
     <text name="CreateNewMasterAmenities">Create new master amenities</text>
     <text name="EditMasterAmenities">Edit master amenities</text>
-    
+    <text name="CruiseItineraryDetails">Cruise itinerary details</text>
+    <text name="CruiseItineraryDetailsHeaderInfo">Cruise itinerary details header info</text>
+    <text name="CreateNewCruiseItineraryDetails">Create new cruise itinerary details</text>
+    <text name="EditCruiseItineraryDetails">Edit cruise itinerary details</text>
+    <text name="DeleteCruiseItineraryDetails">Delete cruise itinerary details</text>
+    <text name="CruisePhotos">Cruise photos</text>
+    <text name="CruisePrices">Cruise prices</text>
+    <text name="CruisePricesHeaderInfo">Cruise prices header info</text>
+    <text name="CreateNewCruisePrices">Create new cruise prices</text>
+    <text name="EditCruisePrices">Edit cruise prices</text>
+    <text name="DeleteCruisePrices">Delete cruise prices</text>
+
+    <text name="CruiseReductions">Cruise reductions</text>
+    <text name="CruiseReductionsHeaderInfo">Cruise reductions header info</text>
+    <text name="CreateNewCruiseReductions">Create new cruise reductions</text>
+    <text name="EditCruiseReductions">Edit cruise reductions</text>
+    <text name="DeleteCruiseReductions">Delete cruise reductions</text>
+    <text name="CruisePhotosHeaderInfo">Cruise photos header info</text>
+    <text name="CreateNewCruisePhotos">Create new cruise photos</text>
+    <text name="EditCruisePhotos">Edit cruise photos</text>
+    <text name="DeleteCruisePhotos">Delete cruise photos</text>
     <text name="DeleteMasterAmenities">Delete master amenities</text>
     <text name="MasterAmenitieses">Master amenitieses</text>
     <text name="BedOptionsBedOptionName">Bed options bed option name</text>
@@ -57,6 +77,19 @@
     <text name="CreateNewAgePolicies">Create new age policies</text>
     <text name="EditAgePolicies">Edit age policies</text>
     <text name="DeleteAgePolicies">Delete age policies</text>
+    <text name="Cruises">Cruises</text>
+    <text name="CruiseName">Cruise name</text>
+    <text name="CreateNewCruises">Create new cruises</text>
+    <text name="EditCruises">Edit cruises</text>
+    <text name="DeleteCruises">Delete cruises</text>
+    <text name="CruiseServiceGroupsServiceGroupName">Cruise service groups service group name</text>
+    <text name="PickCruiseServiceGroups">Pick cruise service groups</text>
+    <text name="CruiseServiceGroups">Cruise service groups</text>
+    <text name="CruiseServiceGroupsHeaderInfo">Cruise service groups header info</text>
+    <text name="CreateNewCruiseServiceGroups">Create new cruise service groups</text>
+    <text name="EditCruiseServiceGroups">Edit cruise service groups</text>
+    <text name="DeleteCruiseServiceGroups">Delete cruise service groups</text>
+    <text name="CreateNewCruiseServices">Create new cruise services</text>
 
     <text name="AllDeparturesHeaderInfo">
       Cruise default seasons header info
@@ -65,6 +98,30 @@
     <text name="EditDepartures">Edit departures</text>
     <text name="DeleteDepartures">Delete departures</text>
     <text name="CruisesAllDeparture">All Departures</text>
+    <text name="CruiseItinerariesId">Cruise itineraries id</text>
+    <text name="CruiseItinerariesItineraryName">Cruise itineraries itinerary name</text>
+    <text name="PickCruiseItineraries">Pick cruise itineraries</text>
+    <text name="CruiseItineraries">Cruise itineraries</text>
+    <text name="CruiseItinerariesHeaderInfo">Cruise itineraries header info</text>
+    <text name="CreateNewCruiseItineraries">Create new cruise itineraries</text>
+    <text name="EditCruiseItineraries">Edit cruise itineraries</text>
+    <text name="DeleteCruiseItineraries">Delete cruise itineraries</text>
+    <text name="CruiseFaresFareName">Cruise fares fare name</text>
+
+    <text name="PickCruiseFares">Pick cruise fares</text>
+    <text name="CruiseFaresLink">Cruise Fares</text>
+    <text name="CruiseFares">Cruise fares</text>
+
+    <text name="CreateNewCharterFares">Create new charter fares</text>
+    <text name="FareStartDate">Fare start date</text>
+    <text name="EditCharterFares">Edit charter fares</text>
+    <text name="CruiseFaresHeaderInfo">Cruise fares header info</text>
+    <text name="CharterFaresHeaderInfo">Charter fares header info</text>
+    <text name="CreateNewCruiseFares">Create new cruise fares</text>
+
+    <text name="EditCruiseFares">Edit cruise fares</text>
+    <text name="DeleteCruiseFares">Delete cruise fares</text>
+    <text name="FareStartDateRange">Fare start date range</text>
     
     <text name="{0}IsRequired">{0} is required.</text>
     <text name="View">View</text>
